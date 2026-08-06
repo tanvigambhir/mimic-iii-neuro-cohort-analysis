@@ -38,9 +38,9 @@ Python (pandas), SQLite (`sqlite3`), SQL (CTEs, subqueries, window functions, co
 
 ## Files in this repo
 
-- `mimic_neuro_cohort_analysis.ipynb` -- schema design, data loading, and SQL analysis (run top to bottom; requires the MIMIC-III Demo CSVs, downloaded separately from PhysioNet)
+- `neuro_cohort_analysis.ipynb` -- schema design, data loading, and SQL analysis (run top to bottom; requires the MIMIC-III Demo CSVs, downloaded separately from PhysioNet)
 - `mimic_admissions_for_tableau.csv`, `mimic_medications_for_tableau.csv`, `mimic_labs_for_tableau.csv` -- exported datasets feeding Tableau and Excel
-- `mimic_neuro_analysis.xlsx` -- Excel QC, pivot table/chart, and lookup analysis
+- `neuro_analysis.xlsx` -- Excel QC, pivot table/chart, and lookup analysis
 - `README.md` -- this file
 
 *(`mimic_neuro.db`, the SQLite database file, and the raw MIMIC-III Demo CSVs are generated/downloaded when running the notebook and aren't tracked in this repo.)*
